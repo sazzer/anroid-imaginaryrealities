@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application.label">Imaginary Realities</string>
+    <string name="application.description">Android app for reading the Imaginary Realities Mud Dev eZine</string>
+
+</resources>
