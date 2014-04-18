@@ -3,4 +3,6 @@
     <string name="application.label">Imaginary Realities</string>
     <string name="application.description">Android app for reading the Imaginary Realities Mud Dev eZine</string>
 
+    <string name="action.search">Search</string>
+    <string name="action.settings">Settings</string>
 </resources>
