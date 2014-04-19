@@ -22,12 +22,28 @@
                  android:description="@string/application.description">
 
         <activity android:name=".ui.HomeActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize">
+                  android:configChanges="orientation|keyboardHidden|screenSize">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data android:name="android.app.default_searchable"
+                       android:value=".ui.SearchActivity" />
+        </activity>
+
+        <activity android:name=".ui.SearchActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data android:name="android.app.searchable"
+                       android:resource="@xml/searchable"/>
+            <meta-data android:name="android.app.default_searchable"
+                       android:value=".ui.SearchActivity" />
         </activity>
 
      </application>
