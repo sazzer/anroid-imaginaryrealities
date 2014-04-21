@@ -1,13 +1,7 @@
 package uk.co.grahamcox.ezine.imaginaryrealities.ui;
 
-import android.app.SearchManager;
-import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.widget.SearchView;
 import uk.co.grahamcox.ezine.imaginaryrealities.R;
 
 /**
